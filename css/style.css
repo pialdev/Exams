@@ -1,0 +1,276 @@
+/* All common css start */
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+    line-height: 0.8;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+/* All common css end */
+
+/* Header Part Start */
+#headerPart {
+    background: #FFF8F3;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header .logo {
+    margin-top: 30px;
+}
+
+.menu ul {
+    display: flex;
+}
+
+.menu ul {
+    display: flex;
+}
+
+.menu ul li a {
+    margin-left: 50px;
+    padding: 20px 35px;
+    line-height: 100px;
+    color: rgba(51, 51, 51, 0.7);
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.button a {
+    margin-left: 50px;
+    padding: 20px 35px;
+    line-height: 100px;
+    color: white;
+    background: #FD6E0A;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/* Header Part End */
+
+/* banner part start */
+#bannerPart {
+    background: #FFF8F3;
+    height: 737px;
+}
+
+.bannerLeft {
+    width: 50%;
+}
+
+.bannerLeft h3 {
+    color: rgba(51, 51, 51, 0.7);
+    font-size: 45px;
+    font-weight: 600;
+    font-family: "Open Sans", sans-serif;
+    padding-top: 197px;
+}
+
+.bannerLeft h1 {
+    color: #181818;
+    font-size: 85px;
+    font-weight: 700;
+    font-family: "Open Sans", sans-serif;
+    padding-top: 50px;
+}
+
+.bannerLeft p {
+    color: #757575;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    width: 585px;
+    font-family: "Open Sans", sans-serif;
+    letter-spacing: 0.5px;
+    padding-top: 40px;
+}
+
+.bannerBtn a {
+    padding: 20px 20px;
+    background: #FD6E0A;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    transition: .4s;
+}
+
+.bannerBtn a:hover {
+    background-color: #18181800;
+    color: #FD6E0A;
+}
+
+.bannerBtn {
+    padding-top: 50px;
+}
+
+.bannerRight {
+    width: 50%;
+}
+
+.imgHold {
+    position: relative;
+    background: teal;
+}
+
+.model img {
+    position: absolute;
+    z-index: 2;
+    top: -463px;
+    right: -750px;
+}
+
+.modelBg img {
+    position: absolute;
+    z-index: 1;
+    top: -305px;
+    right: -800px;
+}
+
+/* banner part end */
+
+/* About Me Part Start */
+#aboutPart {
+    padding: 130px;
+}
+
+.about {
+    text-align: center;
+    background: #FFF8F3;
+    padding: 130px;
+    border-radius: 25px;
+}
+
+.aboutTop h3 {
+    font-size: 35px;
+    font-weight: 700;
+    color: #181818;
+}
+
+.aboutTop p {
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(51, 51, 51, 0.7);
+    line-height: 30px;
+    padding-top: 40px;
+}
+
+.aboutBot {
+    padding-top: 50px;
+    display: flex;
+}
+
+.item h4 {
+    font-size: 20px;
+    font-weight: 400;
+    padding-bottom: 20px;
+    color: rgba(51, 51, 51, 0.7);
+}
+
+.item h3 {
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom: 20px;
+    color: rgba(0, 0, 0, 0.80);
+}
+
+.item {
+    width: 25%;
+}
+
+/* About Me Part End */
+/* Service Part Start */
+
+.serviceUp h3 {
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.serviceUp h4 {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #757575;
+    width: 973px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 45px 0;
+
+
+}
+
+.serviceDown {
+    display: flex;
+
+}
+
+.serviceItem {
+    width: 23%;
+    margin: 0 auto;
+    background: #ffff;
+    box-shadow: 37px 37px 80px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    padding: 30px;
+    transition: .4s;
+}
+
+.serviceItem:hover {
+    transform: scale(1.025);
+}
+
+.serviceItem h4 {
+    font-size: 20px;
+    font-weight: 700;
+    padding: 30px 0 20px 0;
+
+}
+
+.serviceItem p {
+    font-size: 16px;
+    font-weight: 400;
+    width: 204px;
+    line-height: 28px;
+
+    text-align: left;
+
+}
+
+/* Service Part End */
+/* Service Part Start */
+/* Service Part End */
+/* Service Part Start */
+/* Service Part End */
+/* Service Part Start */
+/* Service Part End */
