@@ -526,12 +526,11 @@ h2 {
     transition: 0.5s;
 }
 
-.submit-button:hover {
+.submit-button:hover{
     border: 1px solid #FD6E0A;
     background: transparent;
     color: #FD6E0A;
     transform: scale(1.05);
 
 }
-
 /* Footer Part End */
